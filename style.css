@@ -1,0 +1,61 @@
+/* polices ------------------------------------------------------------------------------------------------ */
+@font-face
+{
+	font-family:'ballpark';
+	src: url('fonts/ballpark.eot');
+	src: url('fonts/ballpark.svg') format('eot'),
+		 url('fonts/ballpark.ttf') format('ttf'),
+		 url('fonts/ballpark.woff')format('woff');
+}
+
+@font-face
+{
+	font-family:'dayrom';
+	src: url('fonts/dayrom.eot');
+	src: url('fonts/dayrom.svg') format('eot'),
+		 url('fonts/dayrom.ttf') format('ttf'),
+		 url('fonts/dayrom.woff')format('woff');
+}
+
+/* styles génériques ------------------------------------------------------------------------------------------*/
+body
+{
+	background: url("images/background.gif") repeat fixed, rgb(250,250,250);
+	color: rgb(50,50,50);
+	font-family: dayrom, trebuchet, serif;
+}
+
+h1, h1+p
+{
+	color: rgb(50,50,155);
+	text-align: center;
+}
+
+h1
+{
+	font-family: ballpark, Arial, sans-serif;
+	font-size: 2.6em;
+}
+
+h1+p
+{
+	font-size: 1.1em;
+}
+
+h2
+{
+	border-bottom: 1px solid rgb(50,50,155);
+	color: rgb(50,50,155);
+	font-size: 1.3em;
+}
+
+img
+{
+	box-shadow: 4px 4px 8px gray;
+	float: right;
+}
+
+h2:hover {
+	background-color: rgb(50,50,155);
+	color: #fff;
+}
