@@ -49,12 +49,6 @@ h2
 	font-size: 1.3em;
 }
 
-img
-{
-	box-shadow: 4px 4px 8px gray;
-	float: right;
-}
-
 h2:hover {
 	background-color: rgb(50,50,155);
 	color: #fff;
